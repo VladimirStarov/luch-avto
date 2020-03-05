@@ -1,0 +1,10 @@
+.info {
+  padding: 2% 0;
+  background: url(../img/bg/info.jpg) center center / cover no-repeat;
+}
+.info__title {
+  @include oswald;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}

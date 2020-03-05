@@ -1,0 +1,29 @@
+// colors
+$orange: #e45028;
+$orange-hover: #c1401e;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: #e35028;
+
+// breakponts
+$tablets: 768px;
+$phones: 480px;
+
+// layout
+@import "./layout/fonts.scss";
+@import "./layout/media.scss";
+@import "./layout/normalize.scss";
+@import "./layout/layout.scss";
+
+// block
+@import "./block/header.scss";
+@import "./block/company-name.scss";
+@import "./block/company-text.scss";
+@import "./block/company-contacts.scss";
+@import "./block/logo.scss";
+@import "./block/info.scss";
+@import "./block/slider.scss";
+@import "./block/page-content.scss";
+@import "./block/category.scss";
+@import "./block/map.scss";
+@import "./block/footer.scss";

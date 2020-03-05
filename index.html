@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Автозапчасти</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__container">
+        <div class="logo">
+          <div class="company-name">ООО ЛУЧ</div>
+          <h1 class="company-text">автозапчасти и автосервис</h1>
+        </div>
+        <address class="company-contacts">
+          <a href="tel:+73832641455" class="company-contacts__phone">+7 (383) 264-14-55</a>
+          <a href="tel:+79607833416" class="company-contacts__phone"><p>легковые автомобили</p>+7 960 783-34-16</a>
+          <a href="tel:+79130178943" class="company-contacts__phone"><p> ГАЗ, УАЗ</p>+7 913 017-89-43</a>
+          <a href="tel:+79139291690" class="company-contacts__phone"><p> грузовые автомобили, трактора</p>+7 913 929-16-90</a>
+          <div class="company-contacts__email-and-address">
+            <a href="mailto:starow@mail.ru" class="company-contacts__email">e-mail: starow@mail.ru</a>
+            <a href="#" class="company-contacts__address">г.Татарск ул.Карбышева 14</a>
+          </div>
+        </address>
+      </div>
+    </header>
+    <section class="section info">
+      <div class="container">
+        <h2 class="info__title">Большой выбор запчастей для автомобилей и спецтехники с доставкой по городу</h2>
+        <div class="slider">
+
+          <input type="radio" id="i1" name="images" checked/>
+          <input type="radio" id="i2" name="images" />
+          <input type="radio" id="i3" name="images" />
+          <input type="radio" id="i4" name="images" />
+          
+          <div class="slide_img" id="one">			
+                  
+                  <img src="./img/slider/slider1.jpg">
+                  
+                      <label class="prev" for="i4"><span></span></label>
+                      <label class="next" for="i2"><span></span></label>	
+              
+          </div>
+          
+          <div class="slide_img" id="two">
+              
+                  <img src="./img/slider/slider2.png" >
+                  
+                      <label class="prev" for="i1"><span></span></label>
+                      <label class="next" for="i3"><span></span></label>
+              
+          </div>
+                  
+          <div class="slide_img" id="three">
+                  <img src="http://wallpaperswide.com/download/up_house-wallpaper-1280x800.jpg">	
+                  
+                      <label class="prev" for="i2"><span></span></label>
+                      <label class="next" for="i4"><span></span></label>
+          </div>
+      
+      
+          <div class="slide_img" id="four">
+                  <img src="http://www.wallpapereast.com/static/images/toys-wallpaper-hd-16339-17046-hd-wallpapers.jpg">	
+                  
+                      <label class="prev" for="i3"><span></span></label>
+                      <label class="next" for="i1"><span></span></label>
+      
+          </div>
+      
+          <div id="nav_slide">
+              <label for="i1" class="dots" id="dot1"></label>
+              <label for="i2" class="dots" id="dot2"></label>
+              <label for="i3" class="dots" id="dot3"></label>
+              <label for="i4" class="dots" id="dot4"></label>
+          </div>
+              
+      </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <main class="page-content">
+          <ul class="page-content__list">
+            <li class="page-content__item category" style="background: url(./img/bg/engine-bg.png) right center / contain no-repeat #e8e8e8;">
+              <h4 class="category__title">Двигатель</h4>
+              <ul class="category__list">
+                <li class="category__item">Навесное оборудование</li>
+                <li class="category__item">Детали блока цилиндров</li>
+                <li class="category__item">Детали головки цилиндров</li>
+                <li class="category__item">Расходники для двигателя</li>
+              </ul>
+            </li>
+            <li class="page-content__item category" style="background: url(./img/bg/car5.png) right center / contain no-repeat #e8e8e8;">
+              <h4 class="category__title">Детали кузова</h4>
+              <ul class="category__list">
+                <li class="category__item">Бамперы</li>
+                <li class="category__item">Капоты</li>
+                <li class="category__item">Крылья</li>
+                <li class="category__item">Двери</li>
+                <li class="category__item">Детали салона</li>
+                <li class="category__item">Остекление автомобиля</li>
+              </ul>
+            </li>
+            <li class="page-content__item category" style="background: url(./img/bg/linz-bg.png) right center / contain no-repeat #e8e8e8;">
+              <h4 class="category__title">Оптика</h4>
+              <ul class="category__list">
+                <li class="category__item">Фары</li>
+                <li class="category__item">Стопы</li>
+                <li class="category__item">Габариты</li>
+                <li class="category__item">Ходовые огни</li>
+              </ul>
+            </li>
+            <li class="page-content__item category" style="background: url(./img/bg/car4.png) right center / 230px 150px no-repeat #e8e8e8;">
+              <h4 class="category__title">Элементы трансмиссии</h4>
+              <ul class="category__list">
+                <li class="category__item">АКПП / МКПП</li>
+                <li class="category__item">Сцеление</li>
+                <li class="category__item">Приводные валы</li>
+                <li class="category__item">Мосты / Редукторы</li>
+                <li class="category__item">Раздаточные коробки</li>
+                <li class="category__item">Карданные валы</li>
+              </ul>
+            </li>
+            <li class="page-content__item category" style="background: url(./img/bg/car3.png) right center / 200px 150px no-repeat #e8e8e8;">
+              <h4 class="category__title">Детали подвески</h4>
+              <ul class="category__list">
+                <li class="category__item">Амортизаторы</li>
+                <li class="category__item">Пружины</li>
+                <li class="category__item">Сайлентблоки</li>
+                <li class="category__item">Шрусы</li>
+                <li class="category__item">Рессоры</li>
+              </ul>
+            </li>
+            <li class="page-content__item category" style="background: url(./img/bg/car2.png) right center / 220px 150px no-repeat #e8e8e8;">
+              <h4 class="category__title">Расходные материалы</h4>
+              <ul class="category__list">
+                <li class="category__item">Фильтры</li>
+                <li class="category__item">Масла</li>
+                <li class="category__item">Свечи</li>
+                <li class="category__item">Колодки</li>
+                <li class="category__item">Щетки стеклоочистителя</li>
+              </ul>
+            </li>
+            <li class="page-content__item category" style="background: url(./img/bg/car1.png) right center / contain no-repeat #e8e8e8;">
+              <h4 class="category__title">Шины / Диски</h4>
+              <ul class="category__list">
+                <li class="category__item">Летние</li>
+                <li class="category__item">Зимние</li>
+                <li class="category__item">Всесезонные</li>
+                <li class="category__item">Штампованные</li>
+                <li class="category__item">Литые</li>
+              </ul>
+            </li>
+          </ul>
+        </main>
+      </div>
+    </section>
+    <section class="section map">
+      <img src="./img/bg/map.png" alt="карта">
+    </section>
+    <footer class="footer">
+      <div class="container footer__container">
+        <address class="company-contacts">
+          <a href="tel:+73832641455" class="company-contacts__phone">+7 (383) 264-14-55</a>
+          <a href="tel:+79607833416" class="company-contacts__phone"><p>легковые автомобили</p>+7 960 783-34-16</a>
+          <a href="tel:+79130178943" class="company-contacts__phone"><p> ГАЗ, УАЗ</p>+7 913 017-89-43</a>
+          <a href="tel:+79139291690" class="company-contacts__phone"><p> грузовые автомобили, трактора</p>+7 913 929-16-90</a>
+          <div class="company-contacts__email-and-address">
+            <a href="mailto:starow@mail.ru" class="company-contacts__email">e-mail: starow@mail.ru</a>
+            <a href="#" class="company-contacts__address">г.Татарск ул.Карбышева 14</a>
+          </div>
+        </address>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

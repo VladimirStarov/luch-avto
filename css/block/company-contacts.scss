@@ -1,0 +1,23 @@
+.company-contacts {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  @include comfortaa;
+  font-weight: 700;
+}
+
+.company-contacts__phone {
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+}
+
+.company-contacts__email, .company-contacts__address {
+  text-decoration: none;
+  flex: 1;
+}
+
+.company-contacts__email-and-address {
+  display: flex;
+  flex-direction: column;
+}

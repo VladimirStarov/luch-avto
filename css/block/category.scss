@@ -1,0 +1,13 @@
+.category {
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 0 10px #000;
+  margin: 10px;
+  padding: 1%;
+}
+
+.category__title {
+  @include oswald;
+  font-weight: bold;
+  font-size: 25px;
+}
